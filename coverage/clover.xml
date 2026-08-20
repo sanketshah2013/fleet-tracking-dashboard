@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1787238624933" clover="3.2.0">
+  <project timestamp="1787238624934" name="All files">
+    <metrics statements="269" coveredstatements="252" conditionals="202" coveredconditionals="180" methods="85" coveredmethods="77" elements="556" coveredelements="509" complexity="0" loc="269" ncloc="269" packages="7" files="19" classes="19"/>
+    <package name="src">
+      <metrics statements="18" coveredstatements="12" conditionals="14" coveredconditionals="11" methods="6" coveredmethods="5"/>
+      <file name="App.tsx" path="C:\Users\sanke\Documents\Sanket-PC\E-Drive\New-folder-Sanket\Workspace\Projects\fleet-tracking-dashboard\src\App.tsx">
+        <metrics statements="9" coveredstatements="8" conditionals="10" coveredconditionals="9" methods="5" coveredmethods="4"/>
+        <line num="12" count="15" type="stmt"/>
+        <line num="28" count="15" type="stmt"/>
+        <line num="30" count="15" type="stmt"/>
+        <line num="31" count="8" type="cond" truecount="1" falsecount="1"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="36" count="15" type="cond" truecount="2" falsecount="0"/>
+        <line num="37" count="15" type="cond" truecount="2" falsecount="0"/>
+        <line num="39" count="15" type="stmt"/>
+        <line num="67" count="80" type="stmt"/>
+      </file>
+      <file name="index.tsx" path="C:\Users\sanke\Documents\Sanket-PC\E-Drive\New-folder-Sanket\Workspace\Projects\fleet-tracking-dashboard\src\index.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+      </file>
+      <file name="theme.ts" path="C:\Users\sanke\Documents\Sanket-PC\E-Drive\New-folder-Sanket\Workspace\Projects\fleet-tracking-dashboard\src\theme.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="5" count="9" type="stmt"/>
+      </file>
+      <file name="types.ts" path="C:\Users\sanke\Documents\Sanket-PC\E-Drive\New-folder-Sanket\Workspace\Projects\fleet-tracking-dashboard\src\types.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="134" count="12" type="stmt"/>
+        <line num="144" count="8" type="stmt"/>
+        <line num="158" count="8" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.api">
+      <metrics statements="59" coveredstatements="59" conditionals="20" coveredconditionals="18" methods="13" coveredmethods="13"/>
+      <file name="client.ts" path="C:\Users\sanke\Documents\Sanket-PC\E-Drive\New-folder-Sanket\Workspace\Projects\fleet-tracking-dashboard\src\api\client.ts">
+        <metrics statements="21" coveredstatements="21" conditionals="16" coveredconditionals="15" methods="5" coveredmethods="5"/>
+        <line num="19" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="22" count="16" type="stmt"/>
+        <line num="27" count="15" type="stmt"/>
+        <line num="28" count="15" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="33" count="15" type="cond" truecount="4" falsecount="0"/>
+        <line num="35" count="5" type="cond" truecount="3" falsecount="0"/>
+        <line num="38" count="5" type="stmt"/>
+        <line num="41" count="10" type="stmt"/>
+        <line num="54" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="57" count="8" type="stmt"/>
+        <line num="58" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="59" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="60" count="8" type="stmt"/>
+        <line num="61" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="65" count="4" type="stmt"/>
+        <line num="68" count="2" type="stmt"/>
+        <line num="76" count="4" type="stmt"/>
+        <line num="79" count="1" type="stmt"/>
+        <line num="88" count="4" type="stmt"/>
+        <line num="89" count="5" type="stmt"/>
+      </file>
+      <file name="websocket.ts" path="C:\Users\sanke\Documents\Sanket-PC\E-Drive\New-folder-Sanket\Workspace\Projects\fleet-tracking-dashboard\src\api\websocket.ts">
+        <metrics statements="38" coveredstatements="38" conditionals="4" coveredconditionals="3" methods="8" coveredmethods="8"/>
+        <line num="8" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="26" count="11" type="stmt"/>
+        <line num="27" count="11" type="stmt"/>
+        <line num="29" count="11" type="stmt"/>
+        <line num="32" count="24" type="stmt"/>
+        <line num="33" count="24" type="stmt"/>
+        <line num="34" count="24" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="40" count="23" type="stmt"/>
+        <line num="42" count="23" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
+        <line num="47" count="23" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="54" count="2" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="62" count="23" type="stmt"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="66" count="23" type="stmt"/>
+        <line num="67" count="15" type="stmt"/>
+        <line num="68" count="15" type="cond" truecount="2" falsecount="0"/>
+        <line num="69" count="13" type="stmt"/>
+        <line num="74" count="11" type="stmt"/>
+        <line num="75" count="14" type="stmt"/>
+        <line num="76" count="14" type="stmt"/>
+        <line num="80" count="14" type="stmt"/>
+        <line num="81" count="14" type="stmt"/>
+        <line num="84" count="11" type="stmt"/>
+        <line num="85" count="2" type="stmt"/>
+        <line num="86" count="2" type="stmt"/>
+        <line num="87" count="2" type="stmt"/>
+        <line num="90" count="11" type="stmt"/>
+        <line num="92" count="11" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components">
+      <metrics statements="64" coveredstatements="55" conditionals="63" coveredconditionals="59" methods="29" coveredmethods="24"/>
+      <file name="ErrorBoundary.tsx" path="C:\Users\sanke\Documents\Sanket-PC\E-Drive\New-folder-Sanket\Workspace\Projects\fleet-tracking-dashboard\src\components\ErrorBoundary.tsx">
+        <metrics statements="8" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="48" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="50" count="0" type="stmt"/>
+      </file>
+      <file name="Header.tsx" path="C:\Users\sanke\Documents\Sanket-PC\E-Drive\New-folder-Sanket\Workspace\Projects\fleet-tracking-dashboard\src\components\Header.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="6" type="stmt"/>
+      </file>
+      <file name="LiveIndicator.tsx" path="C:\Users\sanke\Documents\Sanket-PC\E-Drive\New-folder-Sanket\Workspace\Projects\fleet-tracking-dashboard\src\components\LiveIndicator.tsx">
+        <metrics statements="9" coveredstatements="9" conditionals="13" coveredconditionals="13" methods="1" coveredmethods="1"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="28" count="4" type="stmt"/>
+        <line num="32" count="33" type="cond" truecount="2" falsecount="0"/>
+        <line num="34" count="33" type="stmt"/>
+        <line num="45" count="33" type="cond" truecount="2" falsecount="0"/>
+        <line num="46" count="19" type="stmt"/>
+        <line num="47" count="19" type="stmt"/>
+        <line num="68" count="14" type="stmt"/>
+      </file>
+      <file name="Sidebar.tsx" path="C:\Users\sanke\Documents\Sanket-PC\E-Drive\New-folder-Sanket\Workspace\Projects\fleet-tracking-dashboard\src\components\Sidebar.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="5"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="28" count="13" type="stmt"/>
+        <line num="31" count="13" type="stmt"/>
+        <line num="32" count="9" type="stmt"/>
+        <line num="33" count="9" type="stmt"/>
+        <line num="36" count="13" type="stmt"/>
+      </file>
+      <file name="StatsCards.tsx" path="C:\Users\sanke\Documents\Sanket-PC\E-Drive\New-folder-Sanket\Workspace\Projects\fleet-tracking-dashboard\src\components\StatsCards.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="20" count="18" type="stmt"/>
+        <line num="30" count="18" type="stmt"/>
+        <line num="38" count="72" type="stmt"/>
+      </file>
+      <file name="StatusFilters.tsx" path="C:\Users\sanke\Documents\Sanket-PC\E-Drive\New-folder-Sanket\Workspace\Projects\fleet-tracking-dashboard\src\components\StatusFilters.tsx">
+        <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="5" methods="6" coveredmethods="6"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="31" count="17" type="stmt"/>
+        <line num="32" count="17" type="stmt"/>
+        <line num="33" count="17" type="stmt"/>
+        <line num="34" count="51" type="stmt"/>
+        <line num="36" count="17" type="stmt"/>
+        <line num="39" count="17" type="stmt"/>
+        <line num="47" count="68" type="stmt"/>
+        <line num="48" count="68" type="stmt"/>
+        <line num="51" count="5" type="stmt"/>
+      </file>
+      <file name="VehicleDetailModal.tsx" path="C:\Users\sanke\Documents\Sanket-PC\E-Drive\New-folder-Sanket\Workspace\Projects\fleet-tracking-dashboard\src\components\VehicleDetailModal.tsx">
+        <metrics statements="12" coveredstatements="12" conditionals="24" coveredconditionals="23" methods="4" coveredmethods="4"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="36" count="60" type="stmt"/>
+        <line num="62" count="2" type="stmt"/>
+        <line num="63" count="48" type="stmt"/>
+        <line num="97" count="2" type="stmt"/>
+        <line num="103" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="104" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="107" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="108" count="10" type="stmt"/>
+        <line num="130" count="2" type="stmt"/>
+        <line num="136" count="15" type="cond" truecount="2" falsecount="0"/>
+        <line num="140" count="15" type="stmt"/>
+      </file>
+      <file name="VehicleTable.tsx" path="C:\Users\sanke\Documents\Sanket-PC\E-Drive\New-folder-Sanket\Workspace\Projects\fleet-tracking-dashboard\src\components\VehicleTable.tsx">
+        <metrics statements="11" coveredstatements="10" conditionals="8" coveredconditionals="8" methods="6" coveredmethods="5"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="51" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="55" count="12" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="66" count="3" type="stmt"/>
+        <line num="67" count="3" type="stmt"/>
+        <line num="100" count="2" type="stmt"/>
+        <line num="107" count="15" type="stmt"/>
+        <line num="129" count="120" type="stmt"/>
+        <line num="135" count="12" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.context">
+      <metrics statements="79" coveredstatements="77" conditionals="46" coveredconditionals="36" methods="18" coveredmethods="16"/>
+      <file name="FleetContext.tsx" path="C:\Users\sanke\Documents\Sanket-PC\E-Drive\New-folder-Sanket\Workspace\Projects\fleet-tracking-dashboard\src\context\FleetContext.tsx">
+        <metrics statements="79" coveredstatements="77" conditionals="46" coveredconditionals="36" methods="18" coveredmethods="16"/>
+        <line num="79" count="3" type="stmt"/>
+        <line num="81" count="3" type="stmt"/>
+        <line num="94" count="3" type="stmt"/>
+        <line num="95" count="2" type="stmt"/>
+        <line num="96" count="2" type="stmt"/>
+        <line num="97" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="99" count="2" type="stmt"/>
+        <line num="102" count="3" type="stmt"/>
+        <line num="103" count="30" type="cond" truecount="11" falsecount="1"/>
+        <line num="105" count="6" type="stmt"/>
+        <line num="107" count="4" type="stmt"/>
+        <line num="115" count="1" type="stmt"/>
+        <line num="117" count="1" type="stmt"/>
+        <line num="119" count="4" type="stmt"/>
+        <line num="121" count="1" type="stmt"/>
+        <line num="123" count="4" type="stmt"/>
+        <line num="125" count="2" type="stmt"/>
+        <line num="131" count="1" type="stmt"/>
+        <line num="133" count="1" type="stmt"/>
+        <line num="135" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="138" count="5" type="stmt"/>
+        <line num="146" count="0" type="stmt"/>
+        <line num="154" count="3" type="stmt"/>
+        <line num="155" count="50" type="stmt"/>
+        <line num="156" count="50" type="stmt"/>
+        <line num="162" count="50" type="stmt"/>
+        <line num="164" count="50" type="stmt"/>
+        <line num="165" count="6" type="stmt"/>
+        <line num="166" count="6" type="stmt"/>
+        <line num="167" count="6" type="stmt"/>
+        <line num="169" count="0" type="stmt"/>
+        <line num="171" count="5" type="stmt"/>
+        <line num="172" count="5" type="cond" truecount="1" falsecount="1"/>
+        <line num="175" count="5" type="stmt"/>
+        <line num="177" count="4" type="stmt"/>
+        <line num="178" count="5" type="stmt"/>
+        <line num="179" count="5" type="stmt"/>
+        <line num="187" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="188" count="1" type="stmt"/>
+        <line num="192" count="50" type="stmt"/>
+        <line num="193" count="4" type="stmt"/>
+        <line num="194" count="4" type="stmt"/>
+        <line num="195" count="4" type="stmt"/>
+        <line num="196" count="4" type="stmt"/>
+        <line num="197" count="4" type="stmt"/>
+        <line num="198" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="199" count="3" type="stmt"/>
+        <line num="204" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="206" count="1" type="stmt"/>
+        <line num="210" count="50" type="stmt"/>
+        <line num="213" count="1" type="stmt"/>
+        <line num="214" count="1" type="stmt"/>
+        <line num="217" count="50" type="stmt"/>
+        <line num="218" count="1" type="stmt"/>
+        <line num="222" count="50" type="stmt"/>
+        <line num="223" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="224" count="15" type="stmt"/>
+        <line num="225" count="1" type="stmt"/>
+        <line num="227" count="6" type="stmt"/>
+        <line num="229" count="6" type="stmt"/>
+        <line num="230" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="231" count="3" type="stmt"/>
+        <line num="233" count="3" type="stmt"/>
+        <line num="234" count="3" type="cond" truecount="1" falsecount="3"/>
+        <line num="235" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="239" count="6" type="stmt"/>
+        <line num="241" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="242" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="243" count="5" type="stmt"/>
+        <line num="255" count="50" type="stmt"/>
+        <line num="256" count="6" type="stmt"/>
+        <line num="257" count="6" type="stmt"/>
+        <line num="265" count="50" type="stmt"/>
+        <line num="266" count="50" type="stmt"/>
+        <line num="286" count="50" type="stmt"/>
+        <line num="293" count="3" type="stmt"/>
+        <line num="294" count="70" type="stmt"/>
+        <line num="295" count="69" type="cond" truecount="2" falsecount="0"/>
+        <line num="296" count="65" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.hooks">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="useFleetData.ts" path="C:\Users\sanke\Documents\Sanket-PC\E-Drive\New-folder-Sanket\Workspace\Projects\fleet-tracking-dashboard\src\hooks\useFleetData.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="20" type="stmt"/>
+        <line num="11" count="20" type="stmt"/>
+        <line num="12" count="8" type="stmt"/>
+        <line num="13" count="8" type="stmt"/>
+        <line num="14" count="8" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.test-utils">
+      <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="2" methods="7" coveredmethods="7"/>
+      <file name="fixtures.ts" path="C:\Users\sanke\Documents\Sanket-PC\E-Drive\New-folder-Sanket\Workspace\Projects\fleet-tracking-dashboard\src\test-utils\fixtures.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="2" methods="5" coveredmethods="5"/>
+        <line num="10" count="8" type="stmt"/>
+        <line num="25" count="8" type="stmt"/>
+        <line num="45" count="44" type="stmt"/>
+        <line num="49" count="38" type="stmt"/>
+        <line num="52" count="8" type="stmt"/>
+        <line num="61" count="8" type="stmt"/>
+        <line num="70" count="4" type="stmt"/>
+        <line num="99" count="3" type="stmt"/>
+        <line num="116" count="3" type="stmt"/>
+      </file>
+      <file name="renderWithTheme.tsx" path="C:\Users\sanke\Documents\Sanket-PC\E-Drive\New-folder-Sanket\Workspace\Projects\fleet-tracking-dashboard\src\test-utils\renderWithTheme.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="15" count="70" type="stmt"/>
+        <line num="17" count="69" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.utils">
+      <metrics statements="32" coveredstatements="32" conditionals="55" coveredconditionals="54" methods="9" coveredmethods="9"/>
+      <file name="formatters.ts" path="C:\Users\sanke\Documents\Sanket-PC\E-Drive\New-folder-Sanket\Workspace\Projects\fleet-tracking-dashboard\src\utils\formatters.ts">
+        <metrics statements="32" coveredstatements="32" conditionals="55" coveredconditionals="54" methods="9" coveredmethods="9"/>
+        <line num="15" count="8" type="stmt"/>
+        <line num="18" count="32" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="30" type="stmt"/>
+        <line num="40" count="8" type="stmt"/>
+        <line num="45" count="18" type="stmt"/>
+        <line num="47" count="25" type="stmt"/>
+        <line num="48" count="25" type="stmt"/>
+        <line num="49" count="25" type="stmt"/>
+        <line num="52" count="25" type="cond" truecount="2" falsecount="0"/>
+        <line num="59" count="18" type="cond" truecount="2" falsecount="0"/>
+        <line num="60" count="11" type="stmt"/>
+        <line num="63" count="7" type="stmt"/>
+        <line num="73" count="8" type="stmt"/>
+        <line num="74" count="39" type="cond" truecount="2" falsecount="0"/>
+        <line num="75" count="36" type="stmt"/>
+        <line num="76" count="36" type="cond" truecount="2" falsecount="0"/>
+        <line num="77" count="35" type="stmt"/>
+        <line num="88" count="8" type="stmt"/>
+        <line num="92" count="25" type="cond" truecount="4" falsecount="0"/>
+        <line num="93" count="22" type="stmt"/>
+        <line num="96" count="8" type="stmt"/>
+        <line num="99" count="37" type="cond" truecount="2" falsecount="0"/>
+        <line num="100" count="20" type="stmt"/>
+        <line num="101" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="102" count="19" type="stmt"/>
+        <line num="103" count="19" type="stmt"/>
+        <line num="104" count="19" type="cond" truecount="2" falsecount="0"/>
+        <line num="105" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="106" count="10" type="stmt"/>
+        <line num="107" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="108" count="5" type="stmt"/>
+        <line num="109" count="5" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

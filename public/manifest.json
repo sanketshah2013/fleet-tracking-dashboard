@@ -1,0 +1,15 @@
+{
+  "short_name": "Fleet Dashboard",
+  "name": "Fleet Tracking Dashboard",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "64x64"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#6C2BD9",
+  "background_color": "#F6F5FB"
+}
